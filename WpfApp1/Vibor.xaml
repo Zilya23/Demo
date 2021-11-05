@@ -1,0 +1,34 @@
+﻿<Page x:Class="WpfApp1.Vibor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Vibor">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btn_User" Content="Пользователь" Grid.Column="1" Grid.Row="0" Click="btn_User_Click"/>
+        <Button x:Name="btn_Designer" Content="Дизайнер" Grid.Column="1" Grid.Row="1" Click="btn_Designer_Click" />
+        <Button x:Name="btn_Zakup" Content="Специалист по закупкам" Grid.Column="1" Grid.Row="2" Click="btn_Zakup_Click"/>
+        <Button x:Name="btn_Master" Content="Мастер производитель" Grid.Column="1" Grid.Row="3" Click="btn_Master_Click"/>
+        <Button x:Name="btn_Director" Content="Директор" Grid.Column="1" Grid.Row="4" Click="btn_Director_Click"/>
+        <Button x:Name="btn_AdminUp" Content="Администратор Up" Grid.Column="1" Grid.Row="5" Click="btn_AdminUp_Click"/>
+        <Button x:Name="btn_AdminDown" Content="Администратор Down" Grid.Column="1" Grid.Row="6" Click="btn_AdminDown_Click"/>
+    </Grid>
+</Page>
